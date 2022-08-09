@@ -2,7 +2,7 @@ name: First Bash
 
 on:
   push:
-  branches: ["*"]
+    branches: ["*"]
 
 jobs:
   bash:
