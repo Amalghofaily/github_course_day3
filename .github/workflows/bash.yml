@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3    
       - name: run bash command
-        env: 
+        env:
           MY_SECRET: ${{ secrets.MY_SECRET }}
         run: |
           echo &MY_SECRET
